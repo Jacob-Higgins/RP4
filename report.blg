@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: new-aiaa.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: references.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty pages in bastidavirgiliActiveDebrisRemoval2013
+Warning--missing publisher in ferrariGASPLUMEIMPINGEMENT2014
+Warning--empty pages in mehtaUnderexpandedSupersonicPlume2011
+Warning--empty year in pittPlumeImpingementStudies; set to ????
+Warning--empty pages in herraiz2019development
+You've used 21 entries,
+            3319 wiz_defined-function locations,
+            837 strings with 10599 characters,
+and the built_in function-call counts, 12568 in all, are:
+= -- 957
+> -- 364
+< -- 47
++ -- 150
+- -- 109
+* -- 1013
+:= -- 1686
+add.period$ -- 51
+call.type$ -- 21
+change.case$ -- 86
+chr.to.int$ -- 28
+cite$ -- 26
+duplicate$ -- 1100
+empty$ -- 1041
+format.name$ -- 173
+if$ -- 2590
+int.to.chr$ -- 1
+int.to.str$ -- 22
+missing$ -- 199
+newline$ -- 84
+num.names$ -- 65
+pop$ -- 409
+preamble$ -- 1
+purify$ -- 84
+quote$ -- 0
+skip$ -- 425
+stack$ -- 0
+substring$ -- 668
+swap$ -- 670
+text.length$ -- 33
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 122
+warning$ -- 5
+while$ -- 85
+width$ -- 0
+write$ -- 253
+(There were 5 warnings)

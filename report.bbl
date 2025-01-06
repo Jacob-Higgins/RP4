@@ -1,0 +1,138 @@
+\begin{thebibliography}{21}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{\discretionary{}{}{}https://doi.org/#1}\else
+  \providecommand{\doi}[1]{\discretionary{}{}{}\urlstyle{rm}\url{https://doi.org/#1}}\fi
+
+\bibitem[{{Steering Group}(2022)}]{steeringgroupIADCStatementActive2022a}
+{Steering Group}, \enquote{{{IADC Statement}} on {{Active Debris Removal}},} ,
+  Dec. 2022.
+
+\bibitem[{{Inter-Agency Space Debris Coordination
+  Committee}(1993)}]{inter-agencyspacedebriscoordinationcommitteePeacefulUsesOuter1993}
+{Inter-Agency Space Debris Coordination Committee}, \enquote{Peaceful {{Uses}}
+  of {{Outer Space United Nations Activities}}: {{UN}},} \emph{Environmental
+  Policy and Law}, Vol.~23, No.~6, 1993, pp. 240--241.
+
+\bibitem[{Bastida~Virgili and
+  Krag(2013)}]{bastidavirgiliActiveDebrisRemoval2013}
+Bastida~Virgili, B., and Krag, H., \enquote{Active {{Debris Removal}} for {{LEO
+  Missions}},} \emph{6th {{European Conference}} on {{Space Debris}}}, Vol.~6,
+  European Space Agency, 2013.
+
+\bibitem[{Ledkov and Aslanov(2022)}]{ledkovReviewContactContactless2022}
+Ledkov, A., and Aslanov, V., \enquote{Review of Contact and Contactless Active
+  Space Debris Removal Approaches,} \emph{Progress in Aerospace Sciences}, Vol.
+  134, 2022, p. 100858.
+\newblock \doi{10.1016/j.paerosci.2022.100858}.
+
+\bibitem[{Bonnal et~al.(2013)Bonnal, Ruault, and
+  Desjean}]{bonnalActiveDebrisRemoval2013}
+Bonnal, C., Ruault, J.-M., and Desjean, M.-C., \enquote{Active Debris Removal:
+  {{Recent}} Progress and Current Trends,} \emph{Acta Astronautica}, Vol.~85,
+  2013, pp. 51--60.
+\newblock \doi{10.1016/j.actaastro.2012.11.009}.
+
+\bibitem[{Shan et~al.(2016)Shan, Guo, and
+  Gill}]{shanReviewComparisonActive2016}
+Shan, M., Guo, J., and Gill, E., \enquote{Review and Comparison of Active Space
+  Debris Capturing and Removal Methods,} \emph{Progress in Aerospace Sciences},
+  Vol.~80, 2016, pp. 18--32.
+\newblock \doi{10.1016/j.paerosci.2015.11.001}.
+
+\bibitem[{Peters and Olmos(2016)}]{peters2016applicability}
+Peters, T., and Olmos, D.~E., \enquote{Applicability of {{COBRA}} Concept to
+  Detumbling Space Debris Objects,} \emph{Proceedings of the 6th International
+  Conference on Astrodynamics Tools and Techniques}, 2016, pp. 22--28.
+
+\bibitem[{Ferrari et~al.(2014)Ferrari, Benvenuto, and
+  Lavagna}]{ferrariGASPLUMEIMPINGEMENT2014}
+Ferrari, F., Benvenuto, R., and Lavagna, M., \emph{{{GAS PLUME IMPINGEMENT
+  TECHNIQUE FOR SPACE DEBRIS DE-TUMBLING}}}, 2014.
+
+\bibitem[{Mehta et~al.(2011)Mehta, Sengupta, Renno, Norman, and
+  Gulick}]{mehtaUnderexpandedSupersonicPlume2011}
+Mehta, M., Sengupta, A., Renno, N.~O., Norman, J.~W., and Gulick, D.~S.,
+  \enquote{Underexpanded {{Supersonic Plume Surface Interactions}}:
+  {{Applications}} for {{Spacecraft Landings}} on {{Planetary Bodies}},}
+  \emph{Department of the {{Navy}}}, United States, 2011.
+
+\bibitem[{Pitt()}]{pittPlumeImpingementStudies}
+Pitt, J.~S., \enquote{Plume {{Impingement Studies}} in {{Space Environments}}
+  for {{NASA Deep Space Logistics}},} , ????
+
+\bibitem[{Knudsen(2006)}]{knudsenGesetzeMolekularstromungUnd2006}
+Knudsen, M., \enquote{Die {{Gesetze}} Der {{Molekularstr{\"o}mung}} Und Der
+  Inneren {{Reibungsstr{\"o}mung}} Der {{Gase}} Durch {{R{\"o}hrn}},}
+  \emph{Annalen der Physik}, Vol. 333, 2006, pp. 75--130.
+\newblock \doi{10.1002/andp.19093330106}.
+
+\bibitem[{Cai and Zou(2013)}]{caiGaskineticSolutionsHigh2013}
+Cai, C., and Zou, C., \enquote{Gaskinetic {{Solutions}} for {{High Knudsen
+  Number Planar Jet Impingement Flows}},} \emph{Communications in Computational
+  Physics}, Vol.~14, No.~4, 2013, pp. 960--978.
+\newblock \doi{10.4208/cicp.040812.281112a}.
+
+\bibitem[{Sharma et~al.(2023)Sharma, Kadiyala, and
+  Malaikannan}]{sharmaDSMCSimulationRocket2023}
+Sharma, I.~M., Kadiyala, V.~K., and Malaikannan, G., \enquote{{{DSMC
+  Simulation}} of {{Rocket Plume Interactions}} with {{Extra-Terrestrial
+  Regolith}},} \emph{Energy and {{Exergy}} for {{Sustainable}} and {{Clean
+  Environment}}, {{Volume}} 2}, edited by V.~Edwin~Geo and F.~Aloui, Springer
+  Nature, Singapore, 2023, pp. 309--330.
+\newblock \doi{10.1007/978-981-16-8274-2_21}.
+
+\bibitem[{Singhal et~al.(2024)Singhal, Agarwal, John~Tharakan, and
+  Sunil~Kumar}]{singhalNumericalStudyNozzle2024}
+Singhal, A., Agarwal, D.~K., John~Tharakan, T., and Sunil~Kumar, S.,
+  \enquote{Numerical {{Study}} of {{Nozzle Exhaust Plume Impingement}} on
+  {{Flat Plate Under Low Pressure Environment}},} \emph{Fluid {{Mechanics}} and
+  {{Fluid Power}}, {{Volume}} 3}, edited by K.~M. Singh, S.~Dutta, S.~Subudhi,
+  and N.~K. Singh, Springer Nature, Singapore, 2024, pp. 17--29.
+\newblock \doi{10.1007/978-981-99-6343-0_2}.
+
+\bibitem[{Subramanian et~al.(2024)Subramanian, Craig, White, Kontis, Evans, and
+  {Van den Eynde}}]{subramanianUnderexpandedJetImpingement2024}
+Subramanian, S., Craig, B., White, C., Kontis, K., Evans, D., and {Van den
+  Eynde}, J., \enquote{Underexpanded Jet Impingement in near Vacuum
+  Environment,} \emph{Physics of Fluids}, Vol.~36, No.~10, 2024, p. 107104.
+\newblock \doi{10.1063/5.0230314}.
+
+\bibitem[{Bird(2003)}]{birdMolecularGasDynamics2003}
+Bird, G.~A., \emph{Molecular Gas Dynamics and the Direct Simulation of Gas
+  Flows}, reprinted ed., No.~42 in Oxford Engineering Science Series, Clarendon
+  Press, Oxford, 2003.
+
+\bibitem[{Legge and Boettcher(1982)}]{leggeModellingControlThruster1982}
+Legge, H., and Boettcher, R., \enquote{Modelling {{Control Thruster Plume
+  Flow}} and {{Impingement}},} \emph{Rarefied Gas Dynamics}, Vol.~2, 1982, pp.
+  983--992.
+
+\bibitem[{Simons(1972)}]{simonsEffectNozzleBoundary1972}
+Simons, G.~A., \enquote{Effect of Nozzle Boundary Layers on Rocket Exhaust
+  Plumes.} \emph{AIAA Journal}, Vol.~10, No.~11, 1972, pp. 1534--1535.
+\newblock \doi{10.2514/3.6656}.
+
+\bibitem[{Mayer et~al.(1986)Mayer, Hermel, and Rogers}]{mayerThrustLossDue1986}
+Mayer, E., Hermel, J., and Rogers, A.~W., \enquote{Thrust Loss Due to Plume
+  Impingement Effects,} \emph{Journal of Spacecraft and Rockets}, Vol.~23,
+  No.~6, 1986, pp. 554--560.
+\newblock \doi{10.2514/3.25847}.
+
+\bibitem[{Boyd and Stark(1990)}]{boydModelingSmallHydrazine1990}
+Boyd, I.~D., and Stark, J. P.~W., \enquote{Modeling of a Small Hydrazine
+  Thruster Plume in the Transition Flow Regime,} \emph{Journal of Propulsion
+  and Power}, Vol.~6, No.~2, 1990, pp. 121--126.
+\newblock \doi{10.2514/3.23232}.
+
+\bibitem[{Herr{\'a}iz et~al.(2019)Herr{\'a}iz, Fern{\'a}ndez, and
+  Villa}]{herraiz2019development}
+Herr{\'a}iz, P.~J., Fern{\'a}ndez, J.~M., and Villa, J.~R.,
+  \enquote{Development of a {{MATLAB}}{\textregistered} Plume Impingement Tool
+  for Fast System Analysis,} \emph{Proceedings of the 8th European Conference
+  for Aeronautics and Aerospace Sciences ({{EUCASS}})}, 2019.
+
+\end{thebibliography}
