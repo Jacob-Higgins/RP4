@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{28}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -134,5 +134,42 @@ Herr{\'a}iz, P.~J., Fern{\'a}ndez, J.~M., and Villa, J.~R.,
   \enquote{Development of a {{MATLAB}}{\textregistered} Plume Impingement Tool
   for Fast System Analysis,} \emph{Proceedings of the 8th European Conference
   for Aeronautics and Aerospace Sciences ({{EUCASS}})}, 2019.
+
+\bibitem[{{Joseph
+  Banks}(2023)}]{josephbanksChemicalEquilibriumApplications2023}
+{Joseph Banks}, \enquote{Chemical {{Equilibrium}} with {{Applications}},}
+  https://www1.grc.nasa.gov/research-and-engineering/ceaweb/, Apr. 2023.
+
+\bibitem[{Greatrix(2012)}]{greatrixLiquidPropellantRocketEngines2012}
+Greatrix, D.~R., \emph{Liquid-{{Propellant Rocket Engines}}}, Springer London,
+  London, 2012, pp. 381--415.
+\newblock \doi{10.1007/978-1-4471-2485-6_11}.
+
+\bibitem[{Sutton and Biblarz(2011)}]{suttonRocketPropulsionElements2011}
+Sutton, G.~P., and Biblarz, O., \emph{Rocket {{Propulsion Elements}}}, John
+  Wiley \& Sons, 2011.
+
+\bibitem[{Peters and
+  Escorial~Olmos(2016)}]{petersCOBRAContactlessDetumbling2016}
+Peters, T.~V., and Escorial~Olmos, D., \enquote{{{COBRA}} Contactless
+  Detumbling,} \emph{CEAS Space Journal}, Vol.~8, No.~3, 2016, pp. 143--165.
+\newblock \doi{10.1007/s12567-016-0116-6}.
+
+\bibitem[{Chambre and Schaaf(2017)}]{chambreFlowRarefiedGases2017}
+Chambre, P.~A., and Schaaf, S.~A., \emph{Flow of Rarefied Gases}, Princeton
+  {{Legacy Library}}, Princeton University Press, Princeton, 2017.
+
+\bibitem[{Eucken and Wolf(1950)}]{euckenHandUndJahrbuch1950}
+Eucken, A., and Wolf, K.~L., \enquote{{Hand- und Jahrbuch der chemischen
+  Physik},} \emph{Zeitschrift f{\"u}r Physikalische Chemie}, Vol. 194, No. 1-6,
+  1950, pp. 93--94.
+\newblock \doi{10.1515/zpch-1944-1941-619}.
+
+\bibitem[{Hargreaves et~al.(2011)Hargreaves, Li, and
+  Bernath}]{hargreavesHOTNH3SPECTRA2011}
+Hargreaves, R.~J., Li, G., and Bernath, P.~F., \enquote{{{HOT NH3 SPECTRA FOR
+  ASTROPHYSICAL APPLICATIONS}},} \emph{The Astrophysical Journal}, Vol. 735,
+  No.~2, 2011, p. 111.
+\newblock \doi{10.1088/0004-637X/735/2/111}.
 
 \end{thebibliography}
