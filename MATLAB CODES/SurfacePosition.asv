@@ -1,0 +1,92 @@
+function nodes = SurfacePosition(debris_length, incidence_angle, width, height, nx, ny, plot_graph)
+    % Define node spacings
+    dx = height / (ny-1); % Spacing in X-direction
+    dy = width / (nx-1);  % Spacing in Y-direction
+
+    % Generate node positions with origin at the bottom-left of each element
+    y_local = linspace(0, width - dy, nx); % Y-axis (Width direction)
+    x_local = linspace(0, height - dx, ny); % X-axis (Height direction)
+    [X, Y] = meshgrid(x_local, y_local);
+    X = X(:); % Flatten
+    Y = Y(:); 
+
+    % Initial coordinates with origin at the bottom-left node [0,0]
+    X_local = X;  
+    Y_local = Y;  
+    Z_local = zeros(size(X_local)); % All nodes start at Z = 0
+
+    % Convert incidence angle from degrees to radians
+    theta_rad = deg2rad(incidence_angle);
+
+    % Rotation matrix around Y-axis (tilting upwards into +Z)
+    Ry = [cos(theta_rad), 0, -sin(theta_rad);
+          0, 1, 0;
+          sin(theta_rad), 0, cos(theta_rad)];
+
+    % Apply rotation (about Y-axis at origin [0,0])
+    rotated_points = Ry * [X_local'; Y_local'; Z_local'];
+    X_rotated = rotated_points(1,:);
+    Y_rotated = rotated_points(2,:);
+    Z_rotated = rotated_points(3,:);
+
+    % Define the reference vector (unit vector along X-axis)
+    b = [debris_length, 0, 0]; 
+    mag_b = norm(b); % Magnitude of the reference vector
+
+    % Create a structure array to store the data for each node
+    nodes = struct('i', {}, 'm', {}, 'n', {}, 'x', {}, 'angle', {});
+
+    % Compute angles and fill the structure array with m, n indices
+    index = 1;
+    for n = 1:ny-1  % Iterate through height (X-axis direction)
+        for m = 1:nx-1  % Iterate through width (Y-axis direction)
+            a = [X_rotated(index) + debris_length, Y_rotated(index), Z_rotated(index)];
+            mag_a = norm(a);
+            dot_ab = dot(a, b);
+
+            % Compute angle using the dot product formula
+            angle = acos(dot_ab / (mag_a * mag_b)); % Angle in radians
+
+            % Store the data for the node in the structure array
+            nodes(index).i = index;  % Global index
+            nodes(index).m = m;      % Width index
+            nodes(index).n = n;      % Height index
+            nodes(index).x = X_rotated(index) + debris_length; % X position
+            nodes(index).angle = angle; % Angle with respect to reference
+
+            index = index + 1; % Increment global index
+        end
+    end
+
+    % Plotting the nodes in 3D if plot_graph is true
+    if plot_graph
+        % Extract the angles for each node to use as color data
+        angles = [nodes.angle];  
+
+        % Plotting the nodes in 3D
+        figure;
+        scatter3(X_rotated + debris_length, Y_rotated, Z_rotated, 50, angles, 'filled');
+        colorbar; % Show color bar representing angle
+        colormap jet; % Color map for angles
+
+        % Add labels and title
+        xlabel('X (m)');
+        ylabel('Y (m)');
+        zlabel('Z (m)');
+        title('3D Plot of Rotated Nodes with Angles');
+
+        % Optionally, add the angles as text labels on the plot
+        for i = 1:length(nodes)
+            text(X_rotated(i) + debris_length, Y_rotated(i), Z_rotated(i), sprintf('%.2f', rad2deg(nodes(i).angle)), ...
+                'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
+        end
+
+        % Adjust the view to make the plot clearer
+        view(3);
+        axis([0 15 0 5 0 5]); % Fixed axis limits
+        grid on;
+    end
+end
+
+
+
